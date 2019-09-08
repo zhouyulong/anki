@@ -67,17 +67,14 @@ let res = async () => {
         ankiCardTxtNameToFunct = ankiCardTxtNameToFunct + '<div><font color=""#a9a9a9""><b>' + exampleTitle + '</b></font></div>'
         let exampleContent = $(this).children('div[data-render-html="/#synthetic"]').text()
         ankiCardTxtNameToFunct = ankiCardTxtNameToFunct + '<div>' + exampleContent + '</div>"\n'
-        result = result + ankiCardTxtNameToFunct + ankiCardTxtFunctToName + '\n-----------------------------------\n'
-        console.log(ankiCardTxtNameToFunct)
-        console.log(ankiCardTxtFunctToName)
-        console.log('--------------------------')
     })
+    result = result + ankiCardTxtNameToFunct + ankiCardTxtFunctToName
     // 写入文件
     fs.open('./temp.txt', 'w', 0o666, (err, fd) => {
         if (err) {
             console.log(err)
         } else {
-            fs.writeFile(fd, ankiCardTxtNameToFunct, (err) => {
+            fs.writeFile(fd, result, (err) => {
                 if (err) {
                     console.log('err', err)
                 } else {
