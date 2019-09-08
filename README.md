@@ -1,6 +1,16 @@
 # Make Anki Card in nodejs
 // 制作一些简单的anki卡片，用来记忆在学习过程中需要简单记忆（有印象）的知识
 
+## 食用方法
+> 1、 yarn install   //安装所需模块
+>
+> 2、 运行所需卡片文件，如：
+>
+>
+>```js
+>     node lodashOfAnki.js
+>```
+> 3、 导入anki选择temp.txt => 选择制表符('\t')分割字段
 ## 1.[Lodash][0]
 > 一个 JavaScript 的实用工具库, 表现一致性, 模块化, 高性能, 以及 可扩展
 
