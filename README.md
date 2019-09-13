@@ -20,7 +20,7 @@
 
 [官网][1]
 
-[0]: ../lodashOfAnki.js
+[0]: ../lodash/lodashOfAnki.js
 [1]: https://www.lodashjs.com/
 
 ### 目前示例：
