@@ -1,11 +1,11 @@
 # Make Anki Card in nodejs
 // 制作一些简单的anki卡片，用来记忆在学习过程中需要简单记忆（有印象）的知识
-## 
-目录
 
+# Content
 [1.Lodash](#目前示例)
 
-## 食用方法
+---
+<h2><b>食用方法
 > 1、 yarn install   //安装所需模块
 >
 > 2、 运行所需卡片文件，如：
@@ -50,5 +50,5 @@ _.chunk(['a', 'b', 'c', 'd'], 3);
 
 ```
 ### anki效果:
-![lodashAnki](./lodashAnki.png)
+![lodashAnki](./lodash/lodashAnki.png)
 
