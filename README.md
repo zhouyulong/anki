@@ -14,13 +14,13 @@
 >```js
 >     node lodashOfAnki.js
 >```
-> 3、 导入anki选择temp.txt => 选择制表符('\t')分割字段
+> 3、 导入anki选择lodash.txt => 选择制表符('\t')分割字段
 ## 1.[Lodash][0]
 > 一个 JavaScript 的实用工具库, 表现一致性, 模块化, 高性能, 以及 可扩展
 
 [官网][1]
 
-[0]: ./lodashOfAnki.js
+[0]: ../lodashOfAnki.js
 [1]: https://www.lodashjs.com/
 
 ### 目前示例：
