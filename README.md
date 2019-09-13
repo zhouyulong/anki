@@ -1,6 +1,10 @@
 # Make Anki Card in nodejs
 // 制作一些简单的anki卡片，用来记忆在学习过程中需要简单记忆（有印象）的知识
 
+<div>
+<p style="color: red">test color</p>
+</div>
+
 ## 食用方法
 > 1、 yarn install   //安装所需模块
 >
